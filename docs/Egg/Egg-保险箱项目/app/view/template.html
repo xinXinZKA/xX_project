@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../public/js/fontsizeset.js"></script>
+    <link rel="stylesheet" href="../public/css/template.css">
+    <script src="../public/js/template.js"></script>
+    <script src="../public/js/jquery.js"></script>
+</head>
+
+<body>
+    <div id="footer">
+        <a href="/nine">
+            <img class="img1" src="{{nine_img}}" alt="">
+        </a>
+        <a href="/ten">
+            <img class="img2" src={{ten_img}} alt="">
+        </a>
+        <a href="/eleven">
+            <img class="img3" src={{eleven_img}} alt="">
+        </a>
+        <a href="/twelve">
+            <img class="img4" src={{twelve_img}}>
+        </a>
+        <a class="a1" href="/nine">保险箱</a>
+        <a class="a2" href="/ten">开门记录</a>
+        <a class="a3" href="/eleven">报警记录</a>
+        <a class="a4" href="/twelve">关联用户</a>
+    </div>
+    {% block content %}
+    {% endblock %}
+
+    {% block js %}
+    {% endblock %}
+    <script>
+
+    </script>
+</body>
+
+</html>

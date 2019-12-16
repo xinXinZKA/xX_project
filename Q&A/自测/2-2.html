@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="script/jquery.js"></script>
+</head>
+<body>
+    <!-- hours  minutes  seconds -->
+    <span class="hours"></span>小时
+    <span class="minutes"></span>分钟
+    <span class="seconds"></span>秒
+
+    <script>
+        setInterval(() => {
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            $(".hours").text(hours);
+            $(".minutes").text(minutes);
+            $(".seconds").text(seconds);
+        }, 1000);
+    </script>
+</body>
+</html>

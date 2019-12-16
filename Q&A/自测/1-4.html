@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        li{
+            width: 30px;
+            height: 30px;
+            border: 1px solid red;
+            text-align: center;
+            float: left;
+            line-height: 30px;
+            list-style: none;
+        }
+        ul{
+            margin-left: 78px;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <img id="img_first" src="images04/1.jpg" alt="">
+    <ul>
+        <li onclick="img01()">1</li>
+        <li onclick="img02()">2</li>
+        <li onclick="img03()">3</li>
+        <li onclick="img04()">4</li>
+        <li onclick="img05()">5</li>
+    </ul>
+    <script>
+        function img01(){
+            document.getElementById("img_first").src="images04/01.jpg"
+        }
+        
+        function img02(){
+            document.getElementById("img_first").src="images04/02.jpg"
+        }
+        
+        function img03(){
+            document.getElementById("img_first").src="images04/03.jpg"
+        }
+        
+        function img04(){
+            document.getElementById("img_first").src="images04/04.jpg"
+        }
+        
+        function img05(){
+            document.getElementById("img_first").src="images04/05.jpg"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{% extends "template.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="../public/css/nine.css">
+<div class="header">
+        <img class="img_one" src="../public/images/状态栏（蓝色）.jpg" alt="">
+        <div class="List_one">
+                <a href="ruten5">
+                        <img class="img2" src="../public/images/Return.1.png" alt="">
+                   </a>
+            <p>智能保险箱</p>
+            <a href="/thirteen">
+                <span>详情</span>
+            </a>
+        </div>
+        <div class="List_two">
+            <img src="../public/images/圈.png" alt="">
+            <p>安全</p>
+            <span>安全情况</span>
+        </div>
+        <div class="List_three">
+            <p>最后一次位置：幻想乡</p>
+        </div>
+        <div class="List_four">
+            <p>当前状态：打开</p>
+        </div>
+    </div>
+    <div class="coniater">
+            <div class="Text1">
+                <p>灵敏度介绍</p>
+                <span>灵敏度介绍</span>
+            </div>
+            <div class="grader">
+                <div class="one">
+    
+                </div>
+                <div class="two">
+    
+                </div>
+                <div class="three">
+    
+                </div>
+                <div class="four">
+    
+                </div>
+            </div>
+            <span class="Text2">一级</span>
+            <span class="Text3">二级</span>
+            <span class="Text4">三级</span>
+            <span class="Text5">四级</span>
+        </div>
+        {% endblock %}
+
+        {% block js %}
+        <script src="../public/js/fontsizeset.js"></script>
+        <script src="../public/js/jquery.js"></script>
+        <script src="../public/js/nine.js"></script>
+    {% endblock %}

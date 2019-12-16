@@ -1,0 +1,55 @@
+{% extends "template.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="../public/css/twelve.css">
+<body>
+    <div id="header">
+        <img class="img1" src="../public/images/状态栏.jpg" alt="">
+       <a href="ruten8">
+            <img class="img2" src="../public/images/Return.png" alt="">
+       </a>
+        <a href="/five">
+            <img class="img3" src="../public/images/add.png" alt="">
+        </a>
+        <p>关联用户</p>
+    </div>
+    <div id="coniatner">
+        <ul>
+            <li class="li-1">
+                <p>保险箱按此顺序拨号,拖动可排序</p>
+                <img src="../public/images/Forknumber.png" alt="">
+            </li>
+            <li class="li-2">
+                <div class="bj">
+                    <img  src="../public/images/user.png" alt="">
+                </div>
+                <p>13149869439</p>
+            </li>
+            <li class="li-3">
+                <div class="bj">
+                    <img  src="../public/images/user.png" alt="">
+                </div>
+                <p>13333333333</p>
+            </li>
+            <li class="li-4">
+                <span>49869439</span>
+                <div class="del">
+                    <p>删除</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    {% endblock %}
+
+    {% block js %}
+    <script src="../public/js/fontsizeset.js"></script>
+    <script src="../public/js/jquery1.js"></script>
+    <script>
+        $(".li-1 img").click(function(){
+        $(this).parent().hide();
+    });
+        $(".del ").click(function(){
+        $(this).parent().hide();
+    });
+    </script>
+{% endblock %}

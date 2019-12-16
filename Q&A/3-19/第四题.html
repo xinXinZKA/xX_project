@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        li{
+            width:30px;
+            height: 30px;
+            border:1px solid red;
+            text-align: center;
+            float: left;
+            list-style: none;
+            line-height: 30px;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            margin-left: 21px;
+        }
+    </style>
+</head>
+<body>
+        <!-- 点击数字列表的时候，上面的图片切换成不同的图片 -->
+    <img id="img-1" src="images04/1.jpg" alt="">
+    <ul>
+        <li onclick="img01()">1</li>
+        <li onclick="img02()">2</li>
+        <li onclick="img03()">3</li>
+        <li onclick="img04()">4</li>
+        <li onclick="img05()">5</li>
+    </ul>
+
+    <script>
+        function img01(){
+            document.getElementById("img-1").src="images04/01.jpg";
+        }
+        function img02(){
+            document.getElementById("img-1").src="images04/02.jpg";
+        }
+        function img03(){
+            document.getElementById("img-1").src="images04/03.jpg";
+        }
+        function img04(){
+            document.getElementById("img-1").src="images04/04.jpg";
+        }
+        function img05(){
+            document.getElementById("img-1").src="images04/05.jpg";
+        }
+    </script>
+</body>
+</html>

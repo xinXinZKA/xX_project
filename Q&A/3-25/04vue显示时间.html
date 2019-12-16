@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="vue/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <span>{{hours}}</span>小时
+        <span>{{minutes}}</span>分
+        <span>{{seconds}}</span>秒
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                hours:"",
+                minutes:"",
+                seconds:"",
+            },
+            created(){
+                let target = new Date("2019-6-6").getTime();
+                setInterval(() => {
+                    let date = new Date();
+                    let hours = date.getHours();
+                    let minutes = date.getMinutes();
+                    let seconds = date.getSeconds();
+                    this.hours = hours;
+                    this.minutes = minutes;
+                    this.seconds = seconds;
+                },1000)
+            }
+        })
+    </script>
+</body>
+</html>

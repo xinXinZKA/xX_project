@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '黑体';
+}
+.clear{
+    clear: both;
+}
+.header{
+    width: 7.5rem;
+    height: 1.28rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.StatusBar{
+    width: 7.5rem;
+    height: 0.39rem;
+}
+.StatusBar img{
+    width: 7.5rem;
+    height: 0.39rem;
+    float: left;
+}
+.nav{
+    height: 0.88rem;
+    width: 7.5rem;
+}
+.return{
+    padding-top: 0.26rem;
+    margin-left: 0.29rem;
+    float: left;
+}
+.MenuBar{
+    width: 7.50rem;
+    height: 0.88rem;
+    background-color: black;
+    float: left;
+}
+.enroll{
+    color: aliceblue;
+    font-size: 0.3rem;
+    margin-left: 2.66rem;
+    padding-top: 0.26rem;
+    float: left;
+}
+.APPcontainer{
+    width: 7.5rem;
+    float: left;
+    position: relative;
+    margin-top: 1.26rem;
+    left: -0.05rem;
+}
+.first_txt{
+    border-top: 0.02rem solid #e6e6e6;
+    border-bottom: 0.02rem solid #e6e6e6;
+    margin-left: 0.3rem;
+    width: 6.9rem;
+    height: 0.98rem;
+    margin-top: 0.45rem;
+}
+.txt1{
+    padding-top: 0.46rem;
+    font-size: 0.30rem;
+    float: left;
+    font-weight: bold
+}
+.txt2{
+    float: left;
+    margin-top: 0.46rem;
+}
+.input_box{
+    color: #c2c2c2;
+    caret-color:black;
+    font-size: 0.3rem;
+    width: 3rem;
+    border: none;
+    float: left;
+    zoom:1;
+    outline: medium;
+    margin-left: 0.55rem;
+}
+.input_box2{
+    color: #c2c2c2;
+    caret-color:black;
+    font-size: 0.30rem;
+    height: px;
+    width: 3rem;
+    border: none;
+    float: left;
+    zoom:1;
+    outline: medium;
+    margin-left: 0.25rem;
+}
+.input_box3{
+    color: #c2c2c2;
+    caret-color:black;
+    font-size: 0.3rem;
+    height: px;
+    width: 3rem;
+    border: none;
+    float: left;
+    zoom:1;
+    outline: medium;
+    margin-left: 0.56rem;
+}
+.second_txt{
+    border-bottom: 0.02rem solid #e6e6e6;
+    margin-left: 0.30rem;
+    width: 6.9rem;
+    height: 0.98rem;
+}
+.getcode{
+    font-size: 0.3rem;
+    float: right;
+    margin-top: 0.46rem;
+    color: #0091ff;
+}
+.button{
+    text-align: center;
+}
+.login{
+    width:6.91rem;
+    height: 0.88rem;
+    background-color: #0091ff;
+    font-size: 0.3rem;
+    color: white;
+    border:none;
+    border-radius:0.04rem;
+    margin-top: 0.35rem;
+}
+.APPfooter{
+    float: left;
+    width: 7.5rem;
+    left: -0.05rem;
+}
+.footer{
+    margin-top: 6.8rem;
+    text-align: center
+}
+.corr{
+    font-size: 0.25rem;
+}
+.Privacy_policy{
+    text-decoration:none; 
+    color:#0091ff;
+}

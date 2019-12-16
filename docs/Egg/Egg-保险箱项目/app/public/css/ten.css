@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#footer .a2{
+    color: #5aaaff;
+}
+#header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background-color: #17181a;
+}
+#header .img1{
+    width: 100%;
+    float: left;
+}
+#header .img2{
+    width: 0.2rem;
+    height: 0.36rem;
+    float: left;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+}
+#header span{
+    font-size: 18px;
+    color: white;
+    float: left;
+    margin-top: 0.15rem;
+    margin-left: 2.55rem;
+}
+#coniater{
+    width: 6.9rem;
+    height: 10.4rem;
+    margin-left: 0.3rem;
+}
+#coniater .open1{
+    width: 6.9rem;
+    height: 1.2rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+#coniater .open1 .bj1{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7a41e;
+    border-radius: 3px;
+    margin-top: 0.25rem;
+}
+#coniater .open1 .bj1 .img1{
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+    margin-top: 0.14rem;
+    margin-left: 0.14rem;
+}
+#coniater .open1 .Text1{
+    font-size: 18px;
+    margin-left: 1.05rem;
+    margin-top: -0.95rem;
+}
+#coniater .open1 .Text2{
+    font-size: 16px;
+    color: #b8b8b8;
+    float: left;
+    margin-left: 0.28rem;
+    
+}
+#coniater .open1 .Text3{
+    font-size: 18px;
+    color: #999999;
+    float: left;
+    margin-left: 5.8rem;
+    margin-top: -0.5rem;
+}
+#coniater .open2{
+    width: 6.9rem;
+    height: 1.2rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+#coniater .open2 .bj2{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7a41e;
+    border-radius: 3px;
+    margin-top: 0.25rem;
+}
+#coniater .open2 .bj2 .img2{
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+    margin-top: 0.14rem;
+    margin-left: 0.14rem;
+}
+#coniater .open2 .Text1{
+    font-size: 18px;
+    margin-left: 1.05rem;
+    margin-top: -0.95rem;
+}
+#coniater .open2 .Text2{
+    font-size: 16px;
+    color: #b8b8b8;
+    float: left;
+    margin-left: 0.28rem;
+}
+#coniater .open2 .Text3{
+    font-size: 18px;
+    color: #999999;
+    float: left;
+    margin-left: 5.8rem;
+    margin-top: -0.5rem;
+}
+#coniater .open3{
+    width: 6.9rem;
+    height: 1.2rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+#coniater .open3 .bj3{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7a41e;
+    border-radius: 3px;
+    margin-top: 0.25rem;
+}
+#coniater .open3 .bj3 .img3{
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+    margin-top: 0.14rem;
+    margin-left: 0.14rem;
+}
+#coniater .open3 .Text1{
+    font-size: 18px;
+    margin-left: 1.05rem;
+    margin-top: -0.95rem;
+}
+#coniater .open3 .Text2{
+    font-size: 16px;
+    color: #b8b8b8;
+    float: left;
+    margin-left: 0.28rem;
+}
+#coniater .open3 .Text3{
+    font-size: 18px;
+    color: #999999;
+    float: left;
+    margin-left: 5.8rem;
+    margin-top: -0.5rem;
+}
+#coniater .open4{
+    width: 6.9rem;
+    height: 1.2rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+#coniater .open4 .bj4{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7a41e;
+    border-radius: 3px;
+    margin-top: 0.25rem;
+}
+#coniater .open4 .bj4 .img4{
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+    margin-top: 0.14rem;
+    margin-left: 0.14rem;
+}
+#coniater .open4 .Text1{
+    font-size: 18px;
+    margin-left: 1.05rem;
+    margin-top: -0.95rem;
+}
+#coniater .open4 .Text2{
+    font-size: 16px;
+    color: #b8b8b8;
+    float: left;
+    margin-left: 0.28rem;
+}
+#coniater .open4 .Text3{
+    font-size: 18px;
+    color: #999999;
+    float: left;
+    margin-left: 5.8rem;
+    margin-top: -0.5rem;
+}

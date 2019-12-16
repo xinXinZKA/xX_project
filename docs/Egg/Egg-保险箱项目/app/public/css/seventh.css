@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.frist_nav img{
+    float: left;
+    width: 100%;
+}
+.app_header{
+    width: 7.5rem;
+    height: 1.28rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.second_nav{
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: black;
+}
+.second_nav img{
+    float: left;
+    margin-top: 0.26rem;
+    margin-left: 0.3rem;
+}
+.second_nav span{
+    font-size: 0.28rem;
+    float: left;
+    color: #ffffff;
+    letter-spacing: 0.02rem;
+    margin-left: 2.55rem;
+    margin-top: 0.2rem;
+}
+.clear{
+    clear: both;
+}
+.app_container{
+    width: 7.5rem;
+    height: 12.06rem;
+    background-color: black;
+    margin-top: 1.27rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container_title{
+    color: white;
+    text-align: center;
+    font-size: 0.46rem;
+    letter-spacing: 0.03rem;
+    margin-top: 2rem;
+}
+.container_txt1{
+    color: #9a9a9a;
+    font-size: 0.25rem;
+    margin-top: 2rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+}
+.container_txt2{
+    color: #9a9a9a;
+    font-size: 0.25rem;
+    margin-top: 0.19rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+}
+.container_txt3{
+    color: #9a9a9a;
+    font-size: 0.25rem;
+    margin-top: 0.19rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+}
+.textBox{
+    width: 5.38rem;
+    height: 0.72rem;
+    background-color: black;
+    color: #9a9a9a;
+    text-align: center;
+    font-size: 0.25rem;
+    letter-spacing: 0.05rem;
+    /* margin: 0 auto; */
+    border-top:none;
+    border-left: none;
+    border-right:none;
+}
+.box{
+    text-align: center;
+    margin-top: 1.04rem;
+}
+.getClick{
+    margin-left: 0.3rem;
+    margin-top: 1.5rem;
+}
+.click{
+    width: 6.67rem;
+    height: 0.98rem;
+    background-color: #0090ff;
+    text-align: center;
+    font-size: 0.3rem;
+    color: white;
+    letter-spacing: 0.05rem;
+    margin-left: 0.1rem;
+}

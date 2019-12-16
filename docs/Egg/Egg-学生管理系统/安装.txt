@@ -1,0 +1,4 @@
+安装egg-sequelize
+
+下载依赖，安装egg-sequelize和mysql2
+npm install --save egg-sequelize mysql2

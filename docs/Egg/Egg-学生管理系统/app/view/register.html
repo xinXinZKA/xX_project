@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="margin-left:39px">注册用户</h2>
+    <form method="post" action="/zhuc">
+        <ul style="list-style:none">
+            <li>创建新的帐号：<input class="easyui-validatebox" required="true" maxlength="12" missingMessage="姓名必须填写" size="20" type="text" name="name"></input></li>
+            <li>输入新的密码：<input class="easyui-validatebox" required="true" maxlength="16" missingMessage="密码必须填写" size="20" type="password" name="pass" id="pass"></input></li>
+            <!-- <li>再次输入密码：<input class="easyui-validatebox" required="true" maxlength="16" missingMessage="密码必须填写" size="20" type="password" name="passwd" id="passwd" onkeyup="validate()"/><span id="tishi"></span></input></li> -->
+            <li><input type="submit" value="提交"><input type="reset" value="重新输入"></li>
+        </ul>
+    </form>
+
+    <!-- <script>
+        function validate() {
+            var pass = document.getElementById("pass").value;
+            var passwd = document.getElementById("passwd").value;
+            if(pass == passwd) {
+                document.getElementById("tishi").innerHTML="<font color='green'>两次密码相同</font>";
+                document.getElementById("submit").disabled = false;
+            }
+            else {
+                document.getElementById("tishi").innerHTML="<font color='red'>两次密码不相同</font>";
+                document.getElementById("submit").disabled = true;
+            }
+        }
+    </script> -->
+</body>
+</html>

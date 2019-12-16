@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#footer .a1{
+    color: #5aaaff;
+}
+    .header{
+        width: 7.5rem;
+        height: 8.8rem;
+        background-color: #0091ff;
+    }
+    .header .img_one{
+        float: left;
+        width: 7.5rem;
+    }
+    .header .List_one{
+        clear: both;
+        width: 6.91rem;
+        height: 0.88rem;
+        margin-left: 0.3rem;
+    }
+    .header .List_one img{
+        float: left;
+        width: 0.2rem;
+        margin-top: 0.25rem;
+    }
+    .header .List_one p{
+        float: left;
+        font-size: 18px;
+        color: white;
+        margin-top: 0.18rem;
+        margin-left: 2.35rem;
+    }
+    .header .List_one span{
+        float: left;
+        font-size: 18px;
+        color: white;
+        margin-top: 0.18rem;
+        margin-left: 1.8rem;
+    }
+    .header .List_two{
+        width: 6.9rem;
+        height: 6.6rem;
+        margin-left: 0.3rem;
+    }
+    .header .List_two img{
+        float: left;
+        height: 6rem;
+        margin-left: 0.45rem
+    }
+    .header .List_two p{
+        float: left;
+        font-size: 40px;
+        color: white;
+        margin-top: -3.6rem;
+        margin-left: 2.65rem        
+    }
+    .header .List_two span{
+        float: left;
+        font-size: 16px;
+        color: white;
+        margin-top: -3.85rem;
+        margin-left: 2.8rem
+    }
+    .header .List_three{
+        width: 3.75rem;
+        height: 0.89rem;
+        border: 1px solid white;
+        font-size: 22px;
+        color: white;
+    }
+    .header .List_three p{
+        font-size:16px;
+        margin-left: 0.3rem;
+        margin-top: 0.25rem
+    }
+    .header .List_four{
+        width: 3.75rem;
+        height: 0.89rem;
+        border-top: 1px solid white;
+        font-size: 22px;
+        color: white;
+        margin-left: 3.8rem;
+        margin-top: -0.92rem;
+    }
+    .header .List_four p{
+        font-size:16px;
+        margin-left: 0.6rem;
+        margin-top: 0.25rem
+    }
+    .coniater{
+        width: 7.5rem;
+        height: 2.15rem;
+    }
+    .coniater .Text1{
+        width: 7.5rem;
+        height: 0.4rem;
+        margin-top: 0.95rem;
+    }
+    .coniater .Text1 p{
+        font-size: 15px;
+        margin-left: 0.3rem;
+    }
+    .coniater .Text1 span{
+        float: left;
+        font-size: 15px;
+        margin-left: 5.7rem;
+        margin-top: -0.45rem;
+        color: #5aaaff;
+    }
+    .coniater .grader{
+        width: 7.1rem;
+        height: 0.55rem;
+        margin-left: 0.29rem;
+    }
+    .coniater .grader .one{
+        float: left;
+        width: 1.72rem;
+        height: 0.55rem;
+        border-right: 2px solid white;
+        background-color: #0091ff;
+    }
+    .coniater .grader .two{
+        float: left;
+        width: 1.72rem;
+        height: 0.55rem;
+        border-right: 2px solid white;
+        background-color: #e0e4e7;
+    }
+    .coniater .grader .three{
+        float: left;
+        width: 1.72rem;
+        height: 0.55rem;
+        border-right: 2px solid white;
+        background-color: #e0e4e7;
+    }
+    .coniater .grader .four{
+        float: left;
+        width: 1.72rem;
+        height: 0.55rem;
+        border-right: 2px solid white;
+        background-color: #e0e4e7;
+    }
+    .coniater span{
+        float: left;
+        font-size: 16px;
+        margin-top: 0.15rem;
+    }
+    .coniater .Text2{
+        margin-left: 0.9rem;
+    }
+    .coniater .Text3{
+        margin-left: 1.1rem;
+    }
+    .coniater .Text4{
+        margin-left: 1rem;
+    }
+    .coniater .Text5{
+        margin-left: 1rem;
+    }

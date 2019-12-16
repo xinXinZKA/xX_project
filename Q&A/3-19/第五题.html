@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <input type="text"><button>添加</button>
+    <ul>
+        <li>香蕉<span class="del"> 删除</span></li>
+        <li>苹果<span class="del"> 删除</span></li>
+        <li>鸭梨<span class="del"> 删除</span></li>
+    </ul>
+    <script src="jquery.js"></script>
+    <script>
+        $("button").click(function(){
+            var $li = $("<li>");
+            var txt1 = $("input").val();
+            $li.text(txt1);
+            var del1 = $("<span class='del'> 删除</span>")
+            $li.append(del1);
+            $("ul").append($li);
+        })
+        //事件委托
+        $("ul").delegate(".del","click",function(){
+            $(this).parent().remove();
+        })
+    </script>
+</body>
+</html>

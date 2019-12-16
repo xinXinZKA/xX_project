@@ -1,0 +1,64 @@
+#footer{
+    width: 7.5rem;
+    height: 1.2rem;
+    border-top: 1px solid black;
+    position: absolute;
+    top: 12rem;
+}
+#footer .img1{
+    float: left;
+    width: 0.5rem;
+    height: 0.52rem;
+    margin-left: 0.69rem;
+    margin-right: 0.6rem;
+    margin-top: 0.12rem;
+}
+#footer .img2{
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.77rem;
+    margin-right: 0.6rem;
+    margin-top: 0.1rem;
+}
+#footer .img3{
+    float: left;
+    width: 0.52rem;
+    height: 0.52rem;
+    margin-left: 0.77rem;
+    margin-right: 0.6rem;
+    margin-top: 0.1rem;
+}
+#footer .img4{
+    float: left;
+    width: 0.6rem;
+    height: 0.55rem;
+    margin-left: 0.7rem;
+    margin-top: 0.08rem;
+}
+#footer a{
+    float: left;
+    font-size: 16px;
+    color: #b0b0b0;
+    text-decoration:rgb(255, 255, 255);
+}
+#footer .a1{
+    position:absolute;
+    margin-left: -6.4rem;
+    margin-top: 0.7rem;
+}
+#footer .a2{
+    position:absolute;
+    margin-left: -4.65rem;
+    margin-top: 0.7rem;
+}
+#footer .a3{
+    position:absolute;
+    margin-left: -2.8rem;
+    margin-top: 0.7rem;
+}
+#footer .a4{
+    position:absolute;
+    margin-left: -1rem;
+    margin-top: 0.7rem;
+}

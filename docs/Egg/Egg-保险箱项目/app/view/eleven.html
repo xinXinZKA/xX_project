@@ -1,0 +1,55 @@
+{% extends "template.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="../public/css/eleven.css">
+<body>
+    <div id="header">
+       <img class="img1" src="../public/images/状态栏.jpg" alt="">
+       <a href="ruten7">
+            <img class="img2" src="../public/images/Return.png" alt="">
+       </a>
+       <span>报警记录</span>
+    </div>
+
+    <div class="coniater">
+        <div class="coniaterList_one">
+            <div class="background">
+                <img src="../public/images/move.png" alt="">
+            </div>
+                <p class="Text_one">有人移动保险箱</p>
+                <p class="Text_two">2分钟前</p>
+                <span class="Text_three">幻想乡</span>
+        </div>
+        <div class="coniaterList_two">
+            <div class="background">
+                <img src="../public/images/Electricquantity.png" alt="">
+            </div>
+                <p class="Text_one">保险箱电量低于20%</p>
+                <p class="Text_two">1分钟前</p>
+                <span class="Text_three">幻想乡</span>
+        </div>
+        <div class="coniaterList_three">
+            <div class="background">
+                <img src="../public/images/modify.png" alt="">
+            </div>
+                <p class="Text_one">修改配置</p>
+                <p class="Text_two">1分钟前</p>
+                <span class="Text_three">幻想乡</span>
+        </div>
+        <div class="coniaterList_four">
+            <div class="background">
+                <img src="../public/images/Electricquantity.png" alt="">
+            </div>
+                <p class="Text_one">保险箱电量低于30%</p>
+                <p class="Text_two">18天前</p>
+                <span class="Text_three">幻想乡</span>
+            </div>
+        </div>
+        {% endblock %}
+
+        {% block js %}
+    <script src="../public/js/fontsizeset.js"></script>
+    <script>
+        
+    </script>
+    {% endblock %}
